@@ -7,5 +7,4 @@ A sample usage of GitHubAPI-v3 where you can search a user through its username 
 3) Retrofit API
 4) Picasso for recycler views
 5) Glide Image Loading Framework
-6) Material design support library
-7) Card Views
+6) CardView
