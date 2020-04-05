@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginEnd="@dimen/_7sdp"
+    android:layout_marginStart="@dimen/_7sdp"
+    android:layout_marginTop="@dimen/_7sdp"
+    android:clickable="true"
+    android:focusable="true"
+    android:elevation="@dimen/_30sdp"
+    app:cardBackgroundColor="@color/cardBgColor"
+    app:cardCornerRadius="@dimen/_13sdp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:src="@drawable/ic_launcher"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cover"
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:paddingStart="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"
+                android:textColor="@android:color/white"
+                android:id="@+id/username"
+                android:gravity="bottom"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/https_www_github_com"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textSize="@dimen/_13ssp"
+                android:textColor="@android:color/white"
+                android:id="@+id/githubLink"
+                android:paddingTop="@dimen/_3sdp"
+                android:visibility="visible"
+                android:gravity="top"
+                tools:ignore="RtlSymmetry"
+                />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

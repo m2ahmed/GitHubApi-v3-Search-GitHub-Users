@@ -1,0 +1,4 @@
+#Sun Apr 05 18:45:40 PKT 2020
+base.0=D\:\\GitHubAPI-v3_Search_Users\\GitHubAPI-v3\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
